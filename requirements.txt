@@ -1,0 +1,45 @@
+# Flask基础框架
+Flask==2.2.3
+Flask-RESTful==0.3.9
+Flask-Cors==3.0.10
+Flask-JWT-Extended==4.4.4
+gunicorn==20.1.0
+
+# 数据库
+SQLAlchemy==2.0.4
+Flask-SQLAlchemy==3.0.3
+psycopg2-binary==2.9.5
+pymysql==1.0.2
+redis==4.5.1
+elasticsearch==8.6.0
+
+# 数据采集
+tweepy==4.12.1
+telethon==1.26.1
+itchat-uos==1.5.0.dev0
+wxpy==0.3.9.8
+python-telegram-bot==13.15
+
+# 数据处理
+pandas==1.5.3
+numpy==1.24.2
+scikit-learn==1.2.1
+spacy==3.5.0
+nltk==3.8.1
+regex==2022.10.31
+
+# 任务调度
+celery==5.2.7
+flower==1.2.0
+APScheduler==3.10.0
+
+# 工具库
+requests==2.28.2
+python-dotenv==1.0.0
+pydantic==1.10.5
+loguru==0.6.0
+tqdm==4.64.1
+
+# 测试
+pytest==7.2.1
+pytest-cov==4.0.0 

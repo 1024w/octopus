@@ -1,0 +1,4 @@
+# 处理器模块初始化文件
+from app.utils.logging import get_logger
+
+logger = get_logger("processors") 
